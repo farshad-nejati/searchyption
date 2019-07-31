@@ -30,11 +30,13 @@ def main():
                         pdf_text = Tokenizer.pdf_to_text(file_path)
                         print(Tokenizer.tokenize(pdf_text))
                     elif (file_extension == "doc") or (file_extension == "docx"):
-                        doc_text = Tokenizer.word_to_text(file_path)
-                        print(Tokenizer.tokenize(doc_text))
+                        # doc_text = Tokenizer.word_to_text(file_path)
+                        # print(Tokenizer.tokenize(doc_text))
+                        print("doc files not supported yet!")
                     elif file_extension == "txt":
-                        text = Tokenizer.read_text(file_path)
-                        print(Tokenizer.tokenize(text))
+                        # text = Tokenizer.read_text(file_path)
+                        # print(Tokenizer.tokenize(text))
+                        print("txt files not supported yet!")
                     else:
                         print(os.path.abspath(file))
                         print("Searchyption only support \".pdf\" , \".doc\" , \".docx\" , \".txt\" file formats")

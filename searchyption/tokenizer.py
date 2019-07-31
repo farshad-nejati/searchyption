@@ -16,9 +16,9 @@ class Tokenizer:
 
     @staticmethod
     def tokenize(text):
-        tokens = word_tokenize(text)
+        tokens = Tokenizer.pdf_to_text(text)
         return tokens
 
 
 # token = Tokenizer.pdf_to_text("2.pdf")
-print(Tokenizer.tokenize("this is test for the nltk tokenizer"))
+# print(Tokenizer.tokenize("this is test for the nltk tokenizer"))
