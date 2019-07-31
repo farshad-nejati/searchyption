@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+from searchyption import About
+print(About.about())

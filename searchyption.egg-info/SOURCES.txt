@@ -1,0 +1,13 @@
+setup.py
+searchyption/About.py
+searchyption/__init__.py
+searchyption/command_line.py
+searchyption/iomanager.py
+searchyption/tokenizer.py
+searchyption.egg-info/PKG-INFO
+searchyption.egg-info/SOURCES.txt
+searchyption.egg-info/dependency_links.txt
+searchyption.egg-info/entry_points.txt
+searchyption.egg-info/not-zip-safe
+searchyption.egg-info/requires.txt
+searchyption.egg-info/top_level.txt

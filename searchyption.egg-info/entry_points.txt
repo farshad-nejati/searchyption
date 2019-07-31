@@ -1,0 +1,3 @@
+[console_scripts]
+searchyption = searchyption.command_line:main
+

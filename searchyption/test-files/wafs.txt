@@ -1,0 +1,9 @@
+wafninja => farshad and mehdi
+
+
+whatwaf => mehdi
+xwaf => farshad
+WAFPASS => mehdi
+waf_bypass_helper => farshad
+OSPTF => mehdi
+fireaway => farshad
